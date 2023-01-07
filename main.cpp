@@ -10,5 +10,6 @@ void sort(vector<int>& vec) {
 int main() {
 	vector<int> vec = {10, 12, 1, 4, 3};
 	sort(vec);
+	cout << vec[1] << endl;
 	return 0;
 }
